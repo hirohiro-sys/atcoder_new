@@ -13,3 +13,5 @@ for _ in range(n):
     if time<d or time%2!=d%2:
         flag=False
 print("Yes" if flag else "No")
+
+#https://tysonblog-whitelabel.com/atcoder-beginners-selection_practice11 解説リンク
