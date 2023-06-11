@@ -1,0 +1,10 @@
+s = input()
+re = 0
+co = 0
+for i in s:
+  if i in "ACGT":
+    co += 1
+    re = max(re,co)
+  else:
+    co = 0
+print(re)
