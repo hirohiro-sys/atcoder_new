@@ -1,0 +1,13 @@
+# N = A * B を満たす整数の組、つまり N の約数を全列挙し、
+# F(A, B) の最小値を求める。
+# A, B は入れ替え可能なので、仮に A <= B としておくと、
+# A <= sqrt(N) となるので、探索範囲は最大 10^5 となる。
+
+1import math
+n = int(input())
+mn = 10
+for i in range(1,int(math.sqrt(n))+1):
+  if n % i == 0:
+    m = n//i
+    mn = min(len(str(m)),mn)
+print(mn)
