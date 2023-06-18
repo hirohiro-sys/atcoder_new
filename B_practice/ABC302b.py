@@ -12,3 +12,4 @@ for i in range(h):
                 for n in range(5):
                     print(i+n*x+1,j+n*y+1)
                 exit()
+                # i+n*x, j+n*yがそれぞれのインデックスの位置を表す
