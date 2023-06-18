@@ -11,3 +11,4 @@ for i in range(m):
     t.add((min(a,b),max(a,b)))
 #全体の組み合わせの数から隣り合う組み合わせの数を引く
 print(n*(n-1)//2-len(t))
+　
