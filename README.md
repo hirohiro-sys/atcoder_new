@@ -1,5 +1,3 @@
-# 毎週のAtCoderコンテンストの復習リポジトリ
-
 ## 🏆 Atcoder Record
 
  <a href="https://atcoder.jp/users/hiroking333" target="_blank" title="hiroking333"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fatcoder-badges.now.sh%2Fapi%2Fatcoder%2Fjson%2Fhiroking333" /></a>
